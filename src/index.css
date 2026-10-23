@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-canvas: #fcfbf9;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f5f4f0;
+  --color-border-subtle: #e7e5e0;
+  
+  --color-brand: #c26d24;
+  --color-brand-hover: #a85817;
+  --color-brand-light: #fef7ee;
+  --color-brand-border: #f3d4b6;
+
+  --color-ink-primary: #1c1917;
+  --color-ink-secondary: #57534e;
+  --color-ink-muted: #78716c;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfbf9;
+  color: #1c1917;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Subtle, crisp shadows for clean Scandinavian feel */
+.shadow-clean {
+  box-shadow: 0 1px 3px 0 rgba(28, 25, 23, 0.04), 0 1px 2px -1px rgba(28, 25, 23, 0.04);
+}
+
+.shadow-card {
+  box-shadow: 0 4px 14px -2px rgba(28, 25, 23, 0.05), 0 2px 6px -1px rgba(28, 25, 23, 0.02);
+}
+
+.shadow-pop {
+  box-shadow: 0 12px 32px -4px rgba(28, 25, 23, 0.1), 0 4px 12px -2px rgba(28, 25, 23, 0.04);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fcfbf9;
+}
+::-webkit-scrollbar-thumb {
+  background: #e7e5e0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d6d3cb;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix MM Kids Garage Sale",
+  "description": "Kids garage sale marketplace to browse toys - web version",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
